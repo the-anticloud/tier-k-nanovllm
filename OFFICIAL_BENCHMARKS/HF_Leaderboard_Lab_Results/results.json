@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_NANOVLLM",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "GeeeekExplorer/nano-vllm",
+  "commit": "bb823b3e0698",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 52.08,
+      "min": 46.51,
+      "max": 60.51,
+      "all": [
+        60.51,
+        46.51,
+        48.52,
+        54.48,
+        50.38
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_NANOVLLM (GeeeekExplorer/nano-vllm) \u2014 26 files, 1479 source lines, licence MIT, primary language ['Python']",
+      "token_count": 42,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "nano",
+        "##v",
+        "##ll",
+        "##m",
+        "(",
+        "gee",
+        "##ee",
+        "##ke",
+        "##x",
+        "##pl",
+        "##ore",
+        "##r",
+        "/",
+        "nano",
+        "-",
+        "v",
+        "##ll"
+      ],
+      "tokenization_latency_ms": 2.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5903,
+      "classification_latency_ms": 97.49,
+      "status": "PASS"
+    }
+  }
+}

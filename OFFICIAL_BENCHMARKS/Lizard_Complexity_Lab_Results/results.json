@@ -1,0 +1,14 @@
+{
+  "benchmark": "Lizard_Complexity_Lab_Results",
+  "project": "K_NANOVLLM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/terryyin/lizard",
+  "results": {
+    "framework": "Lizard \u2014 Multi-Language Complexity Analyzer",
+    "source": "https://github.com/terryyin/lizard",
+    "total_functions": null,
+    "avg_cyclomatic_complexity": null,
+    "status": "SKIP",
+    "raw_output": "================================================\n  NLOC    CCN   token  PARAM  length  location  \n------------------------------------------------\n       5      1     29      2       5 __init__@10-14@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\engine\\block_manager.py\n       3      1     26      3       3 update@16-18@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\engine\\block_manager.py\n       4      1     22      1       4 reset@20-23@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\engine\\block_manager.py\n       6      2     82      3       6 __init__@28-33@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\engine\\block_manager.py\n       6      2     66      3       6 compute_hash@36-41@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\engine\\block_manager.py\n       9      3     75      1       9 _"
+  }
+}

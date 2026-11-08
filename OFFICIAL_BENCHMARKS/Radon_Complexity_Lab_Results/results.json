@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_NANOVLLM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 3.24
+    },
+    "complexity_grade": "A",
+    "complexity_score": 3.24,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\bench.py\n    F 8:0 main - A (5)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\example.py\n    F 6:0 main - A (3)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\config.py\n    C 7:0 Config - A (5)\n    M 20:4 Config.__post_init__ - A (4)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\llm.py\n    C 4:0 LLM - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\sampling_params.py\n    C 5:0 SamplingParams - A (3)\n    M 10:4 SamplingParams.__post_init__ - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\_anticloud_egress.py\n    F 38:0 _is_frontier - A (4)\n    F 43:0 guarded_connect - A (4)\n    F 61:0 install - A (3)\n    F 33:0 is_offline - A (1)\n    C 29:0 EgressDenied - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\engine\\block_manager.py\n    M 58:4 BlockManager.can_allocate - B (6)\n    M 75:4 BlockManager.allocate - A (5)\n    C 26:0 BlockManager - A (4)\n    M 43:4 BlockManager._allocate_block - A (4)\n    M 110:4 BlockManager.hash_blocks - A (4)\n    M 94:4 BlockManager.deallocate - A (3)\n    C 8:0 Block - A (2)\n    M 28:4 BlockManager.__init__ - A (2)\n    M 36:4 BlockManager.compute_hash - A (2)\n    M 53:4 BlockManager._deallocate_block - A (2)\n    M 106:4 BlockManager.may_ap",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\bench.py - A (79.72)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\example.py - A (67.34)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\config.py - A (53.27)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\llm.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_NANOVLLM\\UPSTREAM\\nanovllm\\sa"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "benchmark": "CLOC_Lab_Results",
+  "project": "K_NANOVLLM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/AlDanial/cloc",
+  "results": {
+    "framework": "CLOC \u2014 Count Lines of Code (via project_facts.json)",
+    "source": "https://github.com/AlDanial/cloc",
+    "total_files": 26,
+    "total_source_lines": 1479,
+    "languages": {
+      "Python": 21
+    },
+    "primary_language": "Python",
+    "language_count": 1,
+    "lines_per_file": 56.9,
+    "status": "PASS"
+  }
+}

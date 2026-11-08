@@ -1,0 +1,19 @@
+{
+  "benchmark": "Ruff_Linter_Lab_Results",
+  "project": "K_NANOVLLM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://docs.astral.sh/ruff/",
+  "results": {
+    "framework": "Ruff \u2014 Fast Python Linter (Astral)",
+    "source": "https://docs.astral.sh/ruff/",
+    "files_scanned": 10,
+    "total_issues": 12,
+    "top_issue_codes": {
+      "I001": 7,
+      "F401": 2,
+      "C408": 2,
+      "S110": 1
+    },
+    "status": "PARTIAL"
+  }
+}

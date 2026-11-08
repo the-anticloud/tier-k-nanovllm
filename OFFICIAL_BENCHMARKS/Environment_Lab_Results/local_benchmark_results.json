@@ -1,0 +1,16 @@
+{
+  "project": "K_NANOVLLM",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "timestamp": "2026-10-01",
+  "benchmark_type": "local_static",
+  "bandit_high": 0,
+  "bandit_medium": 4,
+  "bandit_status": "pass",
+  "radon_cc_grade": "2.5060240963855422",
+  "radon_cc_score": null,
+  "radon_mi_avg": null,
+  "python_files": 28,
+  "total_files": 362,
+  "python_loc": 1871,
+  "elapsed_s": 5.89
+}
